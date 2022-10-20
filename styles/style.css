@@ -1,0 +1,40 @@
+*{background-color:#fff;font-family:'Open Sans',sans-serif;font-family:Raleway,sans-serif;margin:0;padding:0;box-sizing:border-box;max-width:1059px;margin:auto}
+a{text-decoration:none}
+a:hover{color:#87a8ab;cursor:pointer;transition:all .3s ease 0s;text-decoration:underline}
+.logo{display:flex;justify-content:space-around;align-items:center;margin-right:auto;padding-top:10px}
+nav{display:flex;justify-content:flex-end;align-items:center}
+.nav_links{display:flex;justify-content:space-around;max-width:700px;text-transform:uppercase}
+.nav_links a{font-family:"Open Sans",sans-serif;font-size:1.5vw;font-weight:700;color:#3f575a;letter-spacing:2px}
+@media screen and (min-width:1200px){
+.nav_links a{font-size:18px}
+}
+.nav_links a:hover{color:#87a8ab;cursor:pointer;transition:all .3s ease 0s;text-decoration:underline}
+.nav_links li{list-style:none;display:inline-block}
+.main{background-image:url(../images/main_large.jpeg);background-repeat:no-repeat;background-attachment:fixed;background-position:center;background-size:cover;margin-top:20px;align-items:center;padding-top:30px;color:#3f575a;display:flex;text-align:center}
+.mainContent{background-color:#fff;width:80%;font-weight:700;font-size:1.5vw}
+@media screen and (min-width:1200px){
+.mainContent{font-size:18px}
+}
+.mainContent p{color:#3f575a;font-weight:700}
+.mainContentCol1{display:flex;float:left;padding:10px;width:50%}
+.mainContentCol2{display:flex;float:left;padding:10px;width:50%}
+@media screen and (max-width:800px){
+.mainContentCol1,.mainContentCol2{width:100%}
+}
+h1{text-transform:uppercase;font-weight:700;font-size:2.3vw}
+h2{font-size:2vw}
+h3{font-size:1.5vw}
+p{padding:10px;font-size:1.5vw}
+@media screen and (min-width:1200px){
+p{font-size:18px}
+}
+.photo{max-width:80%;padding-bottom:10px}
+.meal{max-width:80%;padding-bottom:10px}
+.food h1{color:#786247}
+.food h3{color:#3f575a;text-transform:uppercase;padding:0;margin:0}
+.red{color:#a84736;font-weight:700;display:inline;font-family:'Open Sans',sans-serif;font-family:Raleway,sans-serif}
+.food p{color:#786247;padding:0;padding-bottom:1.5vw}
+.footer{max-height:100px;min-height:fit-content;font-size:1.5vw;color:#3f575a;padding:10px}
+@media screen and (min-width:1200px){
+.footer{font-size:18px}
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <!--Head of the site-->
+    <head>
+        <title>The Haukai Restaurant</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="location" content="Haukai Restaurant">
+        <meta name="services" content="Restaurant">
+
+        <!--Link to gooogle fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+        <!--Link to css style sheet-->
+        <link rel="stylesheet" type="text/css" href="./styles/style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- Google tag (gtag.js) for Google analytics-->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JY1SR9TCVP"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JY1SR9TCVP');
+        </script>
+    </head>
+
+    <!--Main body of the website-->
+    <body>
+        <!--Header - logo-->
+        <header>
+            <div class ="logo">
+                <a href = index.html><img src="./images/logo_mini.png"></a>
+            </div>
+        </header>  
+         
+        <!--Navigation bar-->
+        <navbar>
+            <ul class = "nav_links">
+                <li><a href = ./index.html>Home</a></li>
+                <li><a href = ./menu/menu.html>Menu</a></li>
+                <li><a href = ../hours/hours.html>Hours</a></li>
+                <li><a href = ./reservations/reservations.html>Reservations</a></li>
+                <li><a href = ./about/about.html>About Us</a></li>
+                <li><a href = ./contact/contact.html>Contact</a></li>
+                
+            </ul>
+        </navbar>
+
+        <!--Main content-->
+        <main>
+            <div class="main">
+                <div class="mainContent">
+                    <h1>Welcome to The Haukai Restaurant</h1>
+                    <a href="./images/restaurant.jpeg"><img src="./images/restaurant.jpeg" alt="Photo of the interior of the restaurant." class="photo"></a>   
+                    <h2>Wednesday to Sunday</h2>
+                    <h2>5pm - 10pm</h2>
+                    
+                    <div class="mainContentCol1"><a href="./menu/HaukaiMenu.pdf"><h3>Download Full Menu</h3></a></div>
+                    <div class="mainContentCol2"><a href="./reservations/reservations.html"><h3>Make a Reservation</h3></a></div>
+                    <br>
+                </div>
+            </div>
+        </main>
+
+        <!--Footer-->
+        <footer class="footer">
+            <p>To access staff only content, please <a href = ./staff/staff.html>Click Here</a></p>  
+            <p>For any privacy concerns please see <a href="../privacy/privacy.html">Our Privacy Statement</a>. ©Copyright 2022 by L.Whitmore. All rights reserved.</p>
+        </footer>
+
+
+    </body>
+
+</html>    
